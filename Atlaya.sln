@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Atlaya.Domain", "Atlaya.Domain\Atlaya.Domain.fsproj", "{624462CC-3759-4768-B6EB-7964882F3BA1}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Atlaya.Adapters.Csv", "Atlaya.Adapters.Csv\Atlaya.Adapters.Csv.fsproj", "{9506EE80-EF74-4F5A-B3F0-AB3452B37CA2}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Atlaya.Cli", "Atlaya.Cli\Atlaya.Cli.fsproj", "{0D852043-2793-4B06-BB01-8CB18549574C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{624462CC-3759-4768-B6EB-7964882F3BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624462CC-3759-4768-B6EB-7964882F3BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624462CC-3759-4768-B6EB-7964882F3BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624462CC-3759-4768-B6EB-7964882F3BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9506EE80-EF74-4F5A-B3F0-AB3452B37CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9506EE80-EF74-4F5A-B3F0-AB3452B37CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9506EE80-EF74-4F5A-B3F0-AB3452B37CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9506EE80-EF74-4F5A-B3F0-AB3452B37CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D852043-2793-4B06-BB01-8CB18549574C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D852043-2793-4B06-BB01-8CB18549574C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D852043-2793-4B06-BB01-8CB18549574C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D852043-2793-4B06-BB01-8CB18549574C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
