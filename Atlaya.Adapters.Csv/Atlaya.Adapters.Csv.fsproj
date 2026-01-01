@@ -6,8 +6,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Reader.fs" />
+        <Compile Include="Parsers.fs" />
         <None Include="Scratch.fsx" />
+        <Compile Include="Caixabank\CaixaDto.fs" />
+        <Compile Include="Caixabank\CaixaReader.fs" />
+        <Compile Include="Catalog\CatalogReader.fs" />
     </ItemGroup>
 
     <ItemGroup>
