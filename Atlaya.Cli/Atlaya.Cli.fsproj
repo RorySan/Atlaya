@@ -13,8 +13,15 @@
         <Content Include="TestFiles\ene-nov.csv">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
-        <Content Include="TestFiles\Categories.csv" />
-        <Content Include="TestFiles\Subcategories.csv" />
+        <Content Include="TestFiles\Categories.csv">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="TestFiles\Subcategories.csv">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="TestFiles\Tags.csv">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
 
     <ItemGroup>

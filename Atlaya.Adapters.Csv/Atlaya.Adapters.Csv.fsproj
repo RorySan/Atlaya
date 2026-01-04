@@ -11,6 +11,8 @@
         <Compile Include="Caixabank\CaixaDto.fs" />
         <Compile Include="Caixabank\CaixaReader.fs" />
         <Compile Include="Catalog\CatalogReader.fs" />
+        <None Include="TestCatalog.fsx" />
+        <Compile Include="TagsCatalog\TagsCatalogReader.fs" />
     </ItemGroup>
 
     <ItemGroup>

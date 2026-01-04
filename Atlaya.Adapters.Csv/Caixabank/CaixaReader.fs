@@ -9,8 +9,6 @@ module CsvReader =
     open System.Globalization
     open CsvHelper
     open CsvHelper.Configuration
-    open Atlaya.Domain
-
 
     let config = CsvConfiguration(CultureInfo("es-ES"), Delimiter = ",")
 

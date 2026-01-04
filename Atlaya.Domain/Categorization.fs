@@ -1,5 +1,7 @@
 module Atlaya.Domain.Categorization
 
+open Atlaya.Domain.Tags
+
 // ---------------------------
 // IDs
 // ---------------------------
@@ -9,6 +11,7 @@ type SubcategoryId = SubcategoryId of string
 // ---------------------------
 // Catalog entities
 // ---------------------------
+    
 type Category =
     { Id: CategoryId
       Name: string }
@@ -55,6 +58,8 @@ let tryGetCategoryId (catalog: Catalog) (c: Categorization) : Result<CategoryId,
             Error (CatalogInvariantBroken_SubcategoryPointsToUnknownCategory (c.SubcategoryId, sub.CategoryId))
         | Some _ ->
             Ok sub.CategoryId
+            
+
 
 let tryGetSubcategory (catalog: Catalog) (c: Categorization) : Result<Subcategory, CategorizationError> =
     match catalog.SubcategoriesById |> Map.tryFind c.SubcategoryId with
